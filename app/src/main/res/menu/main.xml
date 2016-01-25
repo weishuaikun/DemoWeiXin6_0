@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/action_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_search"
+        tools:ignore="AppCompatResource"></item>
+    <item
+        android:id="@+id/menu_chat_group"
+        android:icon="@drawable/menu_chat_group"
+        android:title="@string/menu_chat_group" />
+    <item
+        android:id="@+id/menu_add_friend"
+        android:icon="@drawable/menu_add_friends"
+        android:title="@string/menu_add_friend" />
+    <item
+        android:id="@+id/menu_saoyisao"
+        android:icon="@drawable/menu_saoyisao"
+        android:title="@string/menu_saoyisao" />
+    <item
+        android:id="@+id/menu_feedback"
+        android:icon="@drawable/menu_feedback"
+        android:title="@string/menu_feedback" />
+</menu>
